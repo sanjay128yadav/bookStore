@@ -8,6 +8,7 @@ app.use(express.json());
 
 // This is the base path for the routes defined in authRoutes.
 // It means all routes inside authRoutes will start with /api/auth.
+// Same all routes inside booksRoutes will start with /api/books and so on.
 
 app.use('/api/auth', authRoutes);
 app.use('/api/books', booksRoutes);
