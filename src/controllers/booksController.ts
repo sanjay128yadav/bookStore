@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 import { Book } from '../models/Book';
-import { Review } from '../models/Review';
 import mongoose from 'mongoose';
 
 export async function createBook(req: Request, res: Response) {
